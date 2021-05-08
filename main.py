@@ -4,7 +4,7 @@ import threading
 import yfinance as yf
 from time import sleep
 
-BOT_TOKEN = "1854161110:AAGrzpMEF6NoJVNkXkzLE4lGcRkZt0QX_9c"
+BOT_TOKEN = ""
 BOT_INTERVAL = 3
 BOT_TIMEOUT = 30
 
