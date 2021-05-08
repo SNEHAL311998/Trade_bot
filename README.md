@@ -30,8 +30,8 @@ Trending-tickers:https://finance.yahoo.com/trending-tickers
 Most active stocks:https://finance.yahoo.com/most-active
 
 
-creator:SNEHAL
-Follow:@Lemon_Juice31
+* creator:SNEHAL
+* Follow:@Lemon_Juice31
 
 Different commands available:
 * /snehal
