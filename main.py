@@ -27,10 +27,6 @@ def bot_polling():
             print("Bot polling loop finished")
             break #End loop
 
-@bot.message_handler(commands=['unnati'])
-def unnati(message):
-    bot.send_message(message.chat.id, "Hi,Unnati Thank you for being my creators partner hope you two will be spectacular partners\n\nGood Luck")
-
 @bot.message_handler(commands=['snehal'])
 def snehal(message):
     bot.send_message(message.chat.id, "I am a Computer Science geek who loves to explore and create new stuffs\n\n\n\nLinkedIn:https://www.linkedin.com/in/snehal-s-aa275818b/\nGithub:https://github.com/SNEHAL311998")\
@@ -38,10 +34,6 @@ def snehal(message):
 @bot.message_handler(commands=['courses'])
 def courses(message):
     bot.send_message(message.chat.id, "Top 5 websites to learn a new skill\n\nCodeacademy:https://www.codecademy.com/\nCoursera:https://www.coursera.org/\nUdemy:https://www.udemy.com/\nUdacit:https://www.udacity.com/\nEdx:https://www.edx.org/")
-
-@bot.message_handler(commands=['👍'])
-def like(message):
-    bot.send_message(message.chat.id, "I hope you like this bot that I've made.Thank you for using it.")
 
 @bot.message_handler(commands=['greet'])
 def greet(message):
